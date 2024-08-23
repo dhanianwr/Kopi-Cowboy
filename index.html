@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ICONS -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- STYLE -->
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>Kopi Cowboy</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <a href="index.html" class="navbar-logo"> Kopi<span>Cowboy</span> </a>
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang</a>
+        <a href="#menu">Menu</a>
+        <a href="#kontak">Kontak</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-bag"><i data-feather="shopping-bag"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <article class="content">
+        <h1>Temukan Kenikmatan <span>Kopi</span> Disini</h1>
+        <p>
+          Aroma Dan Cita Rasa Tiada Tara Dari Bijih Kopi Terbaik Dari Penjuru
+          Nusantara
+        </p>
+      </article>
+    </section>
+    <!-- HERO END -->
+
+    <!-- Tentang -->
+    <section class="tentang" id="about">
+      <h2>Tentang <span>Kami</span></h2>
+      <div class="row-tentang">
+        <div class="img-tentang">
+          <img src="assets/foto-1.jpg" alt="Penyajian Kopi" />
+        </div>
+        <div class="isi-tentang">
+          <h3>Mengapa Harus <span>Memilih Kopi Kami?</span></h3>
+          <p>
+            Bijih kopi yang kami pilih adalah robusta, dan tentu saja dipilih
+            dari yang terbaik dari penjuru nusantara. Penyajian kopi kami juga
+            diproses oleh barista yang berpengalaman dalam bidangnya
+          </p>
+        </div>
+      </div>
+      <div class="row-tentang">
+        <div class="isi-tentang">
+          <h3>Butuh Working Space? <span>Tersedia Disini</span></h3>
+          <p>
+            Kami tentu saja juga menyediakan working space ruangan ber-AC yang
+            didukung oleh WIFI dengan kecepatan 50 mbps.
+          </p>
+        </div>
+        <div class="img-tentang">
+          <img src="assets/foto-2.jpg" alt="working space" />
+        </div>
+      </div>
+    </section>
+    <!-- End Tentang -->
+
+    <!-- MENU -->
+    <section class="menu" id="menu">
+      <h2>Menu Kopi<span>Cowboy</span></h2>
+      <div class="row-menu">
+        <div class="list-menu">
+          <img src="assets/menu/capuchino.jpg" alt="capuchino" />
+          <h4>Cappuccino</h4>
+          <p>IDR 24K</p>
+        </div>
+        <div class="list-menu">
+          <img src="assets/menu/espresso.jpg" alt="Espresso" />
+          <h4>Espresso</h4>
+          <p>IDR 18K</p>
+        </div>
+        <div class="list-menu">
+          <img src="assets/menu/mochacino.jpg" alt="Mochacino" />
+          <h4>Mochaccino</h4>
+          <p>IDR 28K</p>
+        </div>
+        <div class="list-menu">
+          <img src="assets/menu/americano.jpg" alt="americano" />
+          <h4>Americano</h4>
+          <p>IDR 21K</p>
+        </div>
+        <div class="list-menu">
+          <img src="assets/menu/affogato.jpg" alt="Affogato" />
+          <h4>Affogato</h4>
+          <p>IDR 25K</p>
+        </div>
+        <div class="list-menu">
+          <img src="assets/menu/cold-brew.jpg" alt="Cold Brew" />
+          <h4>Cold Brew</h4>
+          <p>IDR 19K</p>
+        </div>
+      </div>
+    </section>
+    <!-- END MENU -->
+
+    <!-- Kontak -->
+    <section class="kontak">
+      <h2>Kontak Kami Disini</h2>
+      <div class="row">
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1974.4400120197465!2d114.35345627117606!3d-8.214819020789333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd1454902b1d137%3A0x2d713b461916bf18!2sJl.%20Hos.%20Cokroaminoto%201-17%2C%20Lingkungan%20Cuking%20Rw.%2C%20Mojopanggung%2C%20Kec.%20Giri%2C%20Kabupaten%20Banyuwangi%2C%20Jawa%20Timur%2068425!5e0!3m2!1sid!2sid!4v1724447595013!5m2!1sid!2sid"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="form-kontak">
+          <form>
+            <input type="email" id="f-email" placeholder="Email" />
+            <input type="text" id="f-text" placeholder="Nama" />
+            <textarea
+              name="message"
+              placeholder="Pesan"
+              id="f-pesan"
+            ></textarea>
+            <input type="submit" id="f-submit" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- End Kontak -->
+
+    <script>
+      feather.replace();
+    </script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
