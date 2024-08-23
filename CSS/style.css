@@ -291,6 +291,12 @@ body {
     width: 15rem;
     height: 15rem;
   }
+  .map iframe{
+    width: 40rem;
+    margin: auto;
+    align-items: center;
+    display: block;
+  }
 }
 
 /* Mobile */
