@@ -16,6 +16,6 @@ document.addEventListener("scroll", function() {
     navbarScroll.style.backgroundColor = "rgba(1, 1, 3, 0.8)";
     navbarScroll.style.transition = "background-color 0.8s ease-in-out"
   } else {
-    navbarScroll.style.backgroundColor = ""; // reset to original color
+    navbarScroll.style.backgroundColor = "";
   }
 });

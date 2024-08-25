@@ -3,6 +3,10 @@
   --bg: #010101;
 }
 
+html {
+  scroll-behavior:smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -145,7 +149,8 @@ body {
 .tentang h2 {
   text-align: center;
   font-size: 3rem;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
+  margin-top: 4rem;
 }
 
 .tentang span {
@@ -188,14 +193,14 @@ body {
 
 .menu {
   padding: 1.4rem 7%;
-  margin-top: 8rem;
   align-items: center;
 }
 
 .menu h2 {
   text-align: center;
   font-size: 3rem;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
 }
 
 .menu span {
@@ -228,6 +233,94 @@ body {
 .menu .row-menu .list-menu p {
   text-align: center;
   font-weight: 300;
+}
+
+/* KONTAK */
+
+.kontak {
+  padding: 0 7%;
+  margin-top: 5rem;
+}
+
+.kontak h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.kontak span {
+  color: var(--primary);
+}
+
+.kontak .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.kontak .row .map iframe {
+  margin: auto;
+  display: block;
+  align-items: center;
+  width: 550px;
+  height: 350px;
+}
+
+.kontak .row .form-kontak form {
+  display: flex;
+  flex-direction: column;
+}
+
+.kontak .row .form-kontak {
+  margin: auto;
+}
+
+#f-email, #f-text, #f-pesan{
+  width: 80vh;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 12px;
+  background-color: var(--primary);
+  color: #fff;
+}
+
+#f-email::placeholder, #f-text::placeholder, #f-pesan::placeholder{
+  color: #fff;
+}
+
+#f-submit {
+  padding: 1rem;
+  width: 7rem;
+  border-radius: 15px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#f-submit:hover{
+  background-color: #4f2c63;
+  transition: 0.5s;
+  color: #fff;
+  transition-timing-function: ease-in-out;
+  scale: 1.2;
+}
+
+
+/* Footer */
+
+footer {
+  margin-top: 5rem;
+  padding: 2rem 7%;
+}
+
+footer p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+footer span {
+  color: var(--primary);
+  font-style: italic;
 }
 
 /* Media Queries */
@@ -291,7 +384,7 @@ body {
     width: 15rem;
     height: 15rem;
   }
-  .map iframe{
+  .map iframe {
     width: 40rem;
     margin: auto;
     align-items: center;
